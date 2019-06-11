@@ -1,18 +1,10 @@
 import typing
 
-# TODO(keving) Make the absolute imports work
-# from gcloud.requests.datastore.constants import MoreResultsType
-# from gcloud.requests.datastore.constants import ResultType
-# from gcloud.requests.datastore.entity import EntityResult
-# from gcloud.requests.datastore.filter import Filter
-# from gcloud.requests.datastore.property_order import PropertyOrder
-# from gcloud.requests.datastore.value import Value
-
-from .constants import MoreResultsType, ResultType
-from .entity import EntityResult
-from .filter import Filter
-from .property_order import PropertyOrder
-from .value import Value
+from gcloud.requests.datastore.constants import MoreResultsType, ResultType
+from gcloud.requests.datastore.entity import EntityResult
+from gcloud.requests.datastore.filter import Filter
+from gcloud.requests.datastore.property_order import PropertyOrder
+from gcloud.requests.datastore.value import Value
 
 
 class BaseQuery:

@@ -1,9 +1,6 @@
 import typing
 
-# TODO(keving) Make the absolute imports work
-# from gcloud.requests.datastore.constants import Direction
-
-from .constants import Direction
+from gcloud.requests.datastore.constants import Direction
 
 
 # https://cloud.google.com/datastore/docs/reference/data/rest/v1/projects/runQuery#PropertyOrder

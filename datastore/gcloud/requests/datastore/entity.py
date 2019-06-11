@@ -1,11 +1,7 @@
 import typing
 
-# TODO(keving) Make the absolute imports work
-# from gcloud.requests.datastore.key import Key
-# from gcloud.requests.datastore.value import Value
-
-from .key import Key
-from .value import Value
+from gcloud.requests.datastore.key import Key
+from gcloud.requests.datastore.value import Value
 
 
 class Entity:

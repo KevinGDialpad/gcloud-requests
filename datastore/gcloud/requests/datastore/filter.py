@@ -1,13 +1,7 @@
 import typing
 
-# TODO(keving) Make the absolute imports work
-# from gcloud.requests.datastore.constants import CompositeFilterOperator
-# from gcloud.requests.datastore.constants import PropertyFilterOperator
-# from gcloud.requests.datastore.value import Value
-
-from .constants import CompositeFilterOperator
-from .constants import PropertyFilterOperator
-from .value import Value
+from gcloud.requests.datastore.constants import CompositeFilterOperator, PropertyFilterOperator
+from gcloud.requests.datastore.value import Value
 
 
 class BaseFilter:

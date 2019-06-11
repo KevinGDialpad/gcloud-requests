@@ -1,13 +1,8 @@
 import typing
 from datetime import datetime
 
-# TODO(keving) Make the absolute imports work
-# from gcloud.requests.datastore.constants import TypeName
-# from gcloud.requests.datastore.constants import TYPES
-# from gcloud.requests.datastore.key import Key
-
-from .constants import TypeName, TYPES
-from .key import Key
+from gcloud.requests.datastore.constants import TypeName, TYPES
+from gcloud.requests.datastore.key import Key
 
 
 # https://cloud.google.com/datastore/docs/reference/data/rest/v1/projects/runQuery#value
