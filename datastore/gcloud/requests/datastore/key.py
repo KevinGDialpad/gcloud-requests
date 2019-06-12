@@ -2,12 +2,16 @@ import typing
 
 
 class PathElement:
-    def __init__(self, kind, id_, name):
-        # type: (str, typing.Optional[int], typing.Optional[str]) -> None
+    def __init__(self, kind, **kwargs):
+        # type: (str, **typing.An) -> None
+        """
+        :param kind:
+        :param kwargs: One of _id (int) or name (str)
+        """
         self.kind = kind
 
-        self.id = id_
-        self.name = name
+        self.id = kwargs.get('_id')
+        self.name = kwargs.get('name')
         if self.id and self.name:
             raise Exception('invalid PathElement contains both ID and name')
 

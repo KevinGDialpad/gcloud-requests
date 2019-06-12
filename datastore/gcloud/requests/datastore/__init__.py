@@ -1,5 +1,6 @@
-from pkg_resources import get_distribution
-__version__ = get_distribution('gcloud-requests-datastore').version
+# TODO(keving) add this back
+# from pkg_resources import get_distribution
+# __version__ = get_distribution('gcloud-requests-datastore').version
 
 from gcloud.requests.datastore.constants import CompositeFilterOperator
 from gcloud.requests.datastore.constants import Consistency
@@ -26,7 +27,8 @@ from gcloud.requests.datastore.query import QueryResultBatch
 from gcloud.requests.datastore.value import Value
 
 
-__all__ = ['__version__', 'CompositeFilter', 'CompositeFilterOperator',
+# __all__ = ['__version__', 'CompositeFilter', 'CompositeFilterOperator',
+__all__ = ['CompositeFilter', 'CompositeFilterOperator',
            'Consistency', 'Datastore', 'DatastoreOperation', 'Direction',
            'Entity', 'EntityResult', 'Filter', 'GQLQuery', 'Key', 'Mode',
            'MoreResultsType', 'Operation', 'PathElement', 'PropertyFilter',
