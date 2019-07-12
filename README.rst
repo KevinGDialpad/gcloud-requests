@@ -1,3 +1,5 @@
+**NOTE:** This experiment is not relevant anymore - we're using `gcloud-rest`_
+
 Synchronous Google Cloud Client Library for Python
 ==================================================
 
@@ -15,3 +17,4 @@ Installation
 
 .. _Requests: https://2.python-requests.org/en/master/
 .. _gcloud-aio: https://github.com/talkiq/gcloud-aio/
+.. _gcloud-rest: https://github.com/talkiq/gcloud-rest/
